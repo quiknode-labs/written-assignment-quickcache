@@ -30,7 +30,7 @@ interacting with them.
 We're using the Etherscan API for that and we placed a thin cache in front of it to avoid making
 unnecessary calls.
 
-This cache needs to be highly available, fast and reliable since it needs to be accessed concurrenty
+This cache needs to be highly available, fast and reliable since it needs to be accessed concurrently
 from multiple workers and in a distributed fashion.
 
 One of your colleagues prototyped this yesterday and we are planning to operationalize and ship it
