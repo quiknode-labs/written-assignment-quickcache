@@ -4,6 +4,7 @@
   "description": "A tool for caching smart contract ABIs",
   "main": "index.js",
   "scripts": {
+    "build": "tsc -p tsconfig.json",
     "test": "yarn run jest"
   },
   "repository": {

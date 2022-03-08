@@ -36,3 +36,14 @@ from multiple workers and in a distributed fashion.
 One of your colleagues prototyped this yesterday and we are planning to operationalize and ship it
 to production in a few days. We need you to identify any potential issues, bugs and risks associated
 with it before we ship it.
+
+## Building and running the project
+
+Requires Node v16 or newer.
+Replace `ETHERSCAN_API_KEY` with your Etherscan API key.
+
+```bash
+yarn install
+yarn build
+node src/index.js
+```
